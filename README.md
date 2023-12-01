@@ -1,4 +1,4 @@
 # Advent of Code
-**My solutions to Advent of Code annual events**
+**Mis soluciones a los Advent of Code**
 
-More info at  https://adventofcode.com
+Más info en https://adventofcode.com
