@@ -4,7 +4,6 @@ with open("day02-input.txt", "r") as archivo:
   lista_archivo = archivo.readlines()
 
 suma = 0
-lista_games = []
 
 for cadena in lista_archivo:
   game = re.findall(r"(\d+) (\w+)", cadena)
