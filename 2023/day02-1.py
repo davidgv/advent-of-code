@@ -8,6 +8,7 @@ suma = 0
 for cadena in lista_archivo:
   game = re.findall(r"(\d+) (\w+)", cadena)
   posible = True
+
   for par in game:
     if (par[1] == "red") and (int(par[0]) > 12) :
         posible = False # no puede tener más de 12 cubos rojos
@@ -18,6 +19,7 @@ for cadena in lista_archivo:
     if (par[1] == "blue") and (int(par[0]) > 14) :
         posible = False # no puede tener más de 14 cubos azules
         break
+    
   if posible:
     num_game = re.findall(r"Game (\d+)", cadena)
     suma += int(num_game[0])
